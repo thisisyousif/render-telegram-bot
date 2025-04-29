@@ -14,9 +14,9 @@ exchange = ccxt.coinex({
 })
 
 # 2. قائمة العملات المتابعة
-symbols = ['MODE/USDT', 'GOAL/USDT', 'LISTEN/USDT','HAT/USDT','PAW/USDT',
-           'HOLO/USDT','DIA/USDT','EMP/USDT','RIO/USDT','ELIZA/USDT','MOCA/USDT']
-last_update="29042025"
+symbols = ['LLM/USDT', 'GOAL/USDT', 'LISTEN/USDT','HAT/USDT','PAW/USDT',
+           'INIT/USDT','DIA/USDT','EMP/USDT','CEL/USDT','ELIZA/USDT','METAL/USDT']
+last_update="29042025_v2"
 # 3. حساب الـ EMA (للحجم أو السعر)
 def calculate_ema(data, window=10):
     series = pd.Series(data)
